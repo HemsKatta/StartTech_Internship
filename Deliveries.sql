@@ -1,0 +1,23 @@
+CREATE TABLE Deliveries(
+	match_id INT,
+	Innings INT,
+	Batting_team VARCHAR(20),
+	Bowling_team VARCHAR(20),
+	Over INT,
+	Ball INT,
+	Batsman VARCHAR(30),
+	Non_striker VARCHAR(30),
+	Bowler VARCHAR(30),
+	Is_Super_over INT,
+	Wide_Runs INT,
+	Bye_Runs INT,
+	Legbye_Runs INT,
+	NoBall_Runs INT,
+	Penalty_Runs INT,
+	Batsman_Runs INT,
+	Extra_Runs INT,
+	Total_Runs INT,
+	Player_Dismissed VARCHAR(30),
+	Dismissal_Kind VARCHAR(20),
+	Fielder VARCHAR(30)
+);
